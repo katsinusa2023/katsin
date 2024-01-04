@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0d63592-c71b-4050-bc6a-ea9220d8db8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/eventsPage/Private-party-menus-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/eventsPage/eventsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/eventsPage/eventsPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/welcomePage/welcomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/welcomePage/welcomePage.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ZPZ7seo7jLqGjPUGODNy0jsYd6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mkrtumabrahamyan/Desktop/KATSIN/newKatsin/katsin/src/pages/eventsPage",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/mkrtumabrahamyan/Desktop/KATSIN/newKatsin/katsin/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/eventsPage" />
+      <recent name="$PROJECT_DIR$/src/assets/images/cuisine" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0d63592-c71b-4050-bc6a-ea9220d8db8f" name="Changes" comment="" />
+      <created>1702325510197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702325510197</updated>
+      <workItem from="1702325511234" duration="12111000" />
+      <workItem from="1702339500328" duration="68000" />
+      <workItem from="1702444751500" duration="5049000" />
+      <workItem from="1702969310257" duration="822000" />
+      <workItem from="1703642725774" duration="10009000" />
+      <workItem from="1703964058648" duration="1571000" />
+      <workItem from="1704325902175" duration="613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

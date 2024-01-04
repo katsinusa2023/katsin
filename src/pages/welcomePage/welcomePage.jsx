@@ -6,7 +6,7 @@ import wine from '../../assets/video/wineVd.mp4';
 const WelcomePage = () => {
   const handleClick = () => {
     window.open(
-      'https://www.opentable.com/r/katsin-glendale?shareReferrer=ios-share',
+      'https://www.opentable.com/restref/client/?restref=1323949&lang=en-US&ot_source=Restaurant%20website&corrid=e66c4cc3-0cde-4670-8a9b-dadfa75f931b',
       '_blank', // <- This is what makes it open in a new window.
     );
   };
