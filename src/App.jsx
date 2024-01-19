@@ -19,6 +19,7 @@ import VipRoomPage from './pages/vipRoomPage';
 import GiftCardPage from './pages/giftCardPage';
 import EventsPage from './pages/eventsPage';
 import ParkingPage from './pages/parkingPage';
+import DressCodePage from "./pages/dressCodePage";
 
 function App() {
   const [showSideBar, setShowSideBar] = useState(false);
@@ -37,6 +38,7 @@ function App() {
         <Route path={'/events'} element={<EventsPage />} />
         <Route path={'/cards'} element={<GiftCardPage />} />
         <Route path={'/vip'} element={<VipRoomPage />} />
+        <Route path={'/dress-code'} element={<DressCodePage />} />
         <Route path={'/parking'} element={<ParkingPage />} />
 
         <Route path={'/jobs'} element={<JobsPage />} />

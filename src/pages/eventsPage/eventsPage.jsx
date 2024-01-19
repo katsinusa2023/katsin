@@ -1,7 +1,7 @@
 import React from 'react';
 import './eventsPage.scss';
 // import cocktail from '../../assets/images/cocktail.jpg';
-import eventmenu from './Private-party-menus-1.png'
+import eventmenu from './PARTY-MENU-1.png'
 // import roland from '../../assets/images/events/IMG_5405-min.jpg'
 
 const EventsPage = () => {
