@@ -1,28 +1,28 @@
 import { v4 as uuid } from 'uuid';
 
-export const appetizers = [
+export const saladAndAppetizers = [
   {
     id: uuid(),
-    name: 'HUMMUS WITH EDAMAME & MUSHROOMS',
+    name: 'HUMMUS WITH almonds and olives',
     description: [
       {
-        name: 'chickpea tahini dup, edamame,',
+        name: 'chickpea dIp, almonds,',
       },
       {
-        name: 'mushrooms, fresh herbs',
+        name: 'olives, confit lemons',
       },
     ],
     price: '14',
   },
   {
     id: uuid(),
-    name: 'RED PEPPER WALLNUT DIP',
+    name: 'RED PEPPER WALNUT DIP',
     description: [
       {
         name: 'Grilled red peppers, garlic,',
       },
       {
-        name: 'wallnuts, fresh herbs',
+        name: 'walnuts, fresh herbs',
       },
     ],
     price: '15',
@@ -32,7 +32,7 @@ export const appetizers = [
     name: 'EGGPLANT CAVIAR WITH TAHINI',
     description: [
       {
-        name: 'Roasted eggplant dip, toasted breadcrumbs,',
+        name: 'Roasted eggplant dip, toasted breadcrumbs, ',
       },
       {
         name: 'zucchini, pomegranate, tahini dressing, basil',
@@ -42,64 +42,46 @@ export const appetizers = [
   },
   {
     id: uuid(),
-    name: 'YELLOW CAVIAR WITH PARMEGIANO WAFFLES',
-    description: [
-      {
-        name: 'Creamcheese, fresh herbs, pike caviar,',
-      },
-      {
-        name: 'parmegiano and gouda waffles',
-      },
-    ],
-    price: '27',
-  },
-  {
-    id: uuid(),
     name: 'VITELLO TONNATO WITH ROASTBEEF',
     description: [
       {
-        name: 'House made brisket, fried capers, tonnato sauce',
+        name: 'House made brisket, fried capers,',
+      },
+      {
+        name: 'tonnato sauce',
       },
     ],
     price: '15',
   },
   {
     id: uuid(),
-    name: 'CRISPY EGGPLANTS IN SWEET & SOUR SAUCE',
+    name: 'AGED CHEESE BOARD',
     description: [
       {
-        name: 'deep fried breaded eggplants, cherry tomato,',
+        name: 'PARm. REgiano, moliterno al tartufo,',
       },
       {
-        name: 'sweet and sour sauce, cashews',
+        name: 'brie, gorgonzola,',
       },
     ],
-    price: '19',
-  },
-  {
-    id: uuid(),
-    name: 'CURED MEAT PLATTER',
-    // description: 'deep fried breaded eggplants, cherry tomato, sweet and sour sauce, cashews',
-    price: '46',
-  },
-  {
-    id: uuid(),
-    name: 'AGED CHEESE BOARD',
-    // description: '',
     price: '44',
   },
   {
     id: uuid(),
-    name: 'FRESHLY BAKED FLATBREAD',
-    // description: '',
-    price: '7',
+    name: 'Set of katsin appetizers to share',
+    description: [
+      {
+        name: 'eggplant caviar, red pepper dip,',
+      },
+      {
+        name: 'pine nut babaghanush, avocado hummus, flatbread',
+      },
+    ],
+    price: '55',
   },
-];
-
-export const saladsSoup = [
   {
     id: uuid(),
-    name: 'MOZZARELA AVOCADO',
+    name: 'MOZZARELA AVOCADO SALAD',
     description: [
       {
         name: 'fresh mozzarela, tomatoes, avocado,',
@@ -108,86 +90,106 @@ export const saladsSoup = [
         name: 'lettuce, pine nuts, basil pesto',
       },
     ],
-    price: '22',
+    price: '23',
   },
   {
     id: uuid(),
-    name: 'ROASTBEEF',
+    name: 'ROASTBEEF SALAD',
     description: [
       {
         name: 'Roastbeef, lettuce, tomatoes, romesco sauce',
       },
     ],
-    price: '20',
+    price: '22',
   },
   {
     id: uuid(),
-    name: 'BURRATA',
+    name: 'BURRATA SALAD',
     description: [
       {
         name: 'Tomato chutney, fresh herbs',
       },
     ],
-    price: '22',
+    price: '23',
   },
   {
     id: uuid(),
-    name: 'QUINOA AVOCADO',
+    name: 'BURRATA SALAD',
     description: [
       {
-        name: 'Smoked eel, unagi sauce, tobiko',
+        name: 'Tomato chutney, fresh herbs',
       },
     ],
-    price: '21',
+    price: '23',
   },
   {
     id: uuid(),
     name: 'SEAFOOD SALAD',
     description: [
       {
-        name: 'Scallops, shrimp, Parmesan sauce,',
+        name: 'Scallops, shrimp, Parmesan sauce, ',
       },
       {
         name: 'mustard sauce, tomatoes Concasse',
       },
     ],
-    price: '28',
+    price: '26',
   },
   {
     id: uuid(),
-    name: 'Heirloom tomato salad',
+    name: 'HEIRLOOM TOMATO SALAD',
     description: [
       {
-        name: 'Feta cheese, dressing with sesame oil,',
+        name: 'PONZU, FETA, TOMATOES',
+      },
+    ],
+    price: '23',
+  },
+  {
+    id: uuid(),
+    name: 'Terragon Ceasar Salad',
+    description: [
+      {
+        name: 'Romaine lettuce, terragon, ',
       },
       {
-        name: 'soy, truffle',
+        name: 'mint, parmegiano, grapes, feta',
       },
     ],
     price: '21',
   },
   {
     id: uuid(),
-    name: 'Seafood Bisque',
+    name: 'Avocado hummus',
     description: [
       {
-        name: 'Lobster, shrimp, scallops, clams, сream',
+        name: 'Tahini, chickpeas, tomato, capers',
       },
     ],
-    price: '28',
+    price: '14',
   },
   {
     id: uuid(),
-    name: 'Tom yum SOUP',
+    name: 'Charcuterie platter',
     description: [
       {
-        name: 'Lobster tail, red caviar, tom yum foam,',
-      },
-      {
-        name: 'egg noodles',
+        name: 'Copa, prosciutto, salami, bresaola, olives',
       },
     ],
-    price: '27',
+    price: '52',
+  },
+  {
+    id: uuid(),
+    name: 'Salmon caviar with parmegiano waffles',
+    description: [
+      {
+        name: 'Salmon caviar, creamcheese, ',
+      },
+      {
+        name: 'herbs, gouda and parmegiano waffles',
+      },
+    ],
+    price: '39',
   },
 ];
 
@@ -200,7 +202,7 @@ export const rawBar = [
         name: 'House ponzu, apple, celery, ginger',
       },
     ],
-    price: '16',
+    price: '18',
   },
   {
     id: uuid(),
@@ -213,7 +215,7 @@ export const rawBar = [
         name: ' tahini sauce',
       },
     ],
-    price: '18',
+    price: '20',
   },
   {
     id: uuid(),
@@ -239,33 +241,30 @@ export const rawBar = [
         name: 'capers, masago sauce, seed crackers',
       },
     ],
-    price: '17',
+    price: '19',
   },
   {
     id: uuid(),
     name: 'BEEF TARTARE',
     description: [
       {
-        name: 'Truffle mayo, capers, onions.',
-      },
-      {
-        name: 'Served with chips',
+        name: 'Truffle mayo, capers, onions',
       },
     ],
-    price: '16',
+    price: '18',
   },
   {
     id: uuid(),
     name: 'SALMON CEVICHE',
     description: [
       {
-        name: 'Tigre milk, red onion, olive oil,',
+        name: 'Tiger milk, red onion, olive oil,',
       },
       {
         name: 'chilli, mango, passion fruit',
       },
     ],
-    price: '16',
+    price: '17',
   },
   {
     id: uuid(),
@@ -275,42 +274,134 @@ export const rawBar = [
         name: 'House ponzu, orange, onions, coriander',
       },
     ],
-    price: '19',
+    price: '18',
   },
   {
     id: uuid(),
-    name: 'YELLOWTAIL',
+    name: 'YELLOWTAIL SASHIMI',
     description: [
       {
-        name: 'Avocado, sesame sauce',
+        name: 'COCONUT TIGER MILK, SRIRACA',
       },
     ],
     price: '19',
   },
   {
     id: uuid(),
-    name: 'TRIO TARTARE OVER ICE',
+    name: 'TRIO TARTARE',
     description: [
       {
         name: 'Tuna, Salmon & Hamachi',
       },
     ],
-    price: '45',
+    price: '53',
   },
   {
     id: uuid(),
-    name: 'SEABASS CEVICHE',
+    name: 'SCALLOP SASHIMI',
     description: [
       {
-        name: 'Truffle mayo, capers, onions.',
-      },
-      {
-        name: 'Served with chips',
+        name: 'PONZU, tahini, radish, spinach',
       },
     ],
     price: '18',
   },
 ];
+
+// export const saladsSoup = [
+//   {
+//     id: uuid(),
+//     name: 'MOZZARELA AVOCADO',
+//     description: [
+//       {
+//         name: 'fresh mozzarela, tomatoes, avocado,',
+//       },
+//       {
+//         name: 'lettuce, pine nuts, basil pesto',
+//       },
+//     ],
+//     price: '22',
+//   },
+//   {
+//     id: uuid(),
+//     name: 'ROASTBEEF',
+//     description: [
+//       {
+//         name: 'Roastbeef, lettuce, tomatoes, romesco sauce',
+//       },
+//     ],
+//     price: '20',
+//   },
+//   {
+//     id: uuid(),
+//     name: 'BURRATA',
+//     description: [
+//       {
+//         name: 'Tomato chutney, fresh herbs',
+//       },
+//     ],
+//     price: '22',
+//   },
+//   {
+//     id: uuid(),
+//     name: 'QUINOA AVOCADO',
+//     description: [
+//       {
+//         name: 'Smoked eel, unagi sauce, tobiko',
+//       },
+//     ],
+//     price: '21',
+//   },
+//   {
+//     id: uuid(),
+//     name: 'SEAFOOD SALAD',
+//     description: [
+//       {
+//         name: 'Scallops, shrimp, Parmesan sauce,',
+//       },
+//       {
+//         name: 'mustard sauce, tomatoes Concasse',
+//       },
+//     ],
+//     price: '28',
+//   },
+//   {
+//     id: uuid(),
+//     name: 'Heirloom tomato salad',
+//     description: [
+//       {
+//         name: 'Feta cheese, dressing with sesame oil,',
+//       },
+//       {
+//         name: 'soy, truffle',
+//       },
+//     ],
+//     price: '21',
+//   },
+//   {
+//     id: uuid(),
+//     name: 'Seafood Bisque',
+//     description: [
+//       {
+//         name: 'Lobster, shrimp, scallops, clams, сream',
+//       },
+//     ],
+//     price: '28',
+//   },
+//   {
+//     id: uuid(),
+//     name: 'Tom yum SOUP',
+//     description: [
+//       {
+//         name: 'Lobster tail, red caviar, tom yum foam,',
+//       },
+//       {
+//         name: 'egg noodles',
+//       },
+//     ],
+//     price: '27',
+//   },
+// ];
 
 export const specialties = [
   {
@@ -324,17 +415,17 @@ export const specialties = [
         name: 'chicken juice',
       },
     ],
-    price: '28',
+    price: '29',
   },
   {
     id: uuid(),
     name: 'GRILLED LAMB CHOPS',
     description: [
       {
-        name: 'Mini zucchini,eggplant puree, sous waf',
+        name: 'Mini zucchini,eggplant puree, sous wafu',
       },
     ],
-    price: '49',
+    price: '55',
   },
   {
     id: uuid(),
@@ -374,7 +465,7 @@ export const specialties = [
         name: 'Spinach, baby zucchini, asian style sauce',
       },
     ],
-    price: '53',
+    price: '56',
   },
   {
     id: uuid(),
@@ -384,7 +475,7 @@ export const specialties = [
         name: 'Confit potato, red pepper mousse',
       },
     ],
-    price: '31',
+    price: '32',
   },
   {
     id: uuid(),
@@ -410,38 +501,59 @@ export const specialties = [
         name: 'sunchok puree, truffle-infused creamy sauce',
       },
     ],
-    price: '44',
+    price: '68',
+  },
+  {
+    id: uuid(),
+    name: 'ROASTED WHOLE LAMB NECK',
+    price: '69',
+  },
+  {
+    id: uuid(),
+    name: 'Grilled branzino',
+    description: [
+      {
+        name: 'Tomato sauce, potatoes, zucchini',
+      },
+    ],
+    price: '39',
   },
 ];
 
 export const steaksFromCharcoalOven = [
   {
     id: uuid(),
-    name: 'PRIME ANGUS TOMAHAWK, 40 OZ',
+    name: 'PRIME ANGUS TOMAHAWK, 36 OZ',
     // description: 'chickpea tahini dup, edamame, mushrooms, fresh herbs',
-    price: '142',
+    price: '158',
   },
   {
     id: uuid(),
-    name: 'PRIME ANGUS RIBEYE FILLET, 14 OZ',
+    name: 'PRIME ANGUS RIBEYE FILLET, 16 OZ',
     // description: 'Grilled red peppers, garlic, wallnuts, fresh herbs',
-    price: '62',
+    price: '69',
   },
   {
     id: uuid(),
-    name: 'PRIME NEW YORK STEAK 12 OZ',
+    name: 'ANGUS FILET MIGNON, 8 OZ',
+    // description: 'Grilled red peppers, garlic, wallnuts, fresh herbs',
+    price: '68',
+  },
+  {
+    id: uuid(),
+    name: 'PRIME ANGUS BONE IN RIBEYE, 18 oz',
     // description:
     //   'Roasted eggplant dip, toasted breadcrumbs, zucchini, pomegranate, tahini dressing, basil',
-    price: '45',
+    price: '75',
   },
 ];
 
 export const sides = [
   {
     id: uuid(),
-    name: 'MASHED POTATOES',
+    name: 'LOBSTER MASHED POTATOES',
     // description: '',
-    price: '11',
+    price: '26',
   },
   {
     id: uuid(),
@@ -453,60 +565,42 @@ export const sides = [
     id: uuid(),
     name: 'GRILLED VEGETABLES',
     // description: '',
-    price: '10',
-  },
-  {
-    id: uuid(),
-    name: 'ROASTED BABY VEGETABLES',
-    // description: '',
     price: '12',
   },
   {
     id: uuid(),
     name: 'TRUFFLE ORZO',
     // description: '',
-    price: '19',
-  },
-  {
-    id: uuid(),
-    name: 'ROASTED POTATOES',
-    // description: '',
-    price: '10',
-  },
-  {
-    id: uuid(),
-    name: 'LOBSTER ORZO',
-    // description: '',
-    price: '28',
+    price: '12',
   },
 ];
 
-export const sauces = [
-  {
-    id: uuid(),
-    name: 'PEPPERCORN',
-    // description: '',
-    price: '6',
-  },
-  {
-    id: uuid(),
-    name: 'MUSHROOM',
-    // description: '',
-    price: '6',
-  },
-  {
-    id: uuid(),
-    name: 'BLUE CHEESE',
-    // description: '',
-    price: '6',
-  },
-  {
-    id: uuid(),
-    name: 'BBQ',
-    // description: '',
-    price: '6',
-  },
-];
+// export const sauces = [
+//   {
+//     id: uuid(),
+//     name: 'PEPPERCORN',
+//     // description: '',
+//     price: '6',
+//   },
+//   {
+//     id: uuid(),
+//     name: 'MUSHROOM',
+//     // description: '',
+//     price: '6',
+//   },
+//   {
+//     id: uuid(),
+//     name: 'BLUE CHEESE',
+//     // description: '',
+//     price: '6',
+//   },
+//   {
+//     id: uuid(),
+//     name: 'BBQ',
+//     // description: '',
+//     price: '6',
+//   },
+// ];
 
 export const dessert = [
   {
@@ -537,7 +631,7 @@ export const dessert = [
     id: uuid(),
     name: 'DONUTS WITH VANILLA',
     // description: '',
-    price: '14',
+    price: '15',
   },
   {
     id: uuid(),
@@ -556,19 +650,20 @@ export const dessert = [
 export const foodMenu = [
   {
     id: uuid(),
-    title: 'APPETIZERS',
-    type: appetizers,
-  },
-  {
-    id: uuid(),
-    title: 'SALADS & SOUP',
-    type: saladsSoup,
+    title: 'APPETIZERS & SALADS',
+    type: saladAndAppetizers,
   },
   {
     id: uuid(),
     title: 'RAW BAR',
     type: rawBar,
   },
+  // {
+  //   id: uuid(),
+  //   title: 'SALADS & SOUP',
+  //   type: saladsSoup,
+  // },
+
   {
     id: uuid(),
     title: 'SPECIALTIES',
@@ -585,11 +680,11 @@ export const foodMenu = [
     title: 'SIDES',
     type: sides,
   },
-  {
-    id: uuid(),
-    title: 'SAUCES',
-    type: sauces,
-  },
+  // {
+  //   id: uuid(),
+  //   title: 'SAUCES',
+  //   type: sauces,
+  // },
   {
     id: uuid(),
     title: 'DESSERT',

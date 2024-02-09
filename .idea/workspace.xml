@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d63592-c71b-4050-bc6a-ea9220d8db8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dressCodePage/dressCodePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dressCodePage/dressCodePage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dressCodePage/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/eventsPage/PARTY-MENU-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/eventsPage/Private-party-menus-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/eventsPage/eventsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/eventsPage/eventsPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/foodMenuPage/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/foodMenuPage/mock.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mkrtumabrahamyan/Desktop/KATSIN/newKatsin/katsin/src/assets/images",
+    "last_opened_file_path": "/Users/mkrtumabrahamyan/Desktop/KATSIN/newKatsin/katsin/src/assets/video",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,11 +60,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/video" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/pages/eventsPage" />
       <recent name="$PROJECT_DIR$/src/assets/images/cuisine" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -94,7 +86,8 @@
       <workItem from="1705280211566" duration="425000" />
       <workItem from="1705282415030" duration="375000" />
       <workItem from="1705372937873" duration="56000" />
-      <workItem from="1705623378530" duration="1101000" />
+      <workItem from="1705623378530" duration="2063000" />
+      <workItem from="1707441312279" duration="2877000" />
     </task>
     <servers />
   </component>
