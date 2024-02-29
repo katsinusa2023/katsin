@@ -114,16 +114,6 @@ export const saladAndAppetizers = [
   },
   {
     id: uuid(),
-    name: 'BURRATA SALAD',
-    description: [
-      {
-        name: 'Tomato chutney, fresh herbs',
-      },
-    ],
-    price: '23',
-  },
-  {
-    id: uuid(),
     name: 'SEAFOOD SALAD',
     description: [
       {

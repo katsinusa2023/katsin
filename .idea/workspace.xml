@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e0d63592-c71b-4050-bc6a-ea9220d8db8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/foodMenuPage/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/foodMenuPage/mock.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mkrtumabrahamyan/Desktop/KATSIN/newKatsin/katsin/src/assets/video",
+    "last_opened_file_path": "/Users/mkrtumabrahamyan/Desktop/KATSIN/newKatsin/katsin",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -87,7 +90,8 @@
       <workItem from="1705282415030" duration="375000" />
       <workItem from="1705372937873" duration="56000" />
       <workItem from="1705623378530" duration="2063000" />
-      <workItem from="1707441312279" duration="2877000" />
+      <workItem from="1707441312279" duration="4364000" />
+      <workItem from="1709186144453" duration="909000" />
     </task>
     <servers />
   </component>
