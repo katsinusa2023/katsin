@@ -13,7 +13,6 @@ root.render(
     <App />
   </BrowserRouter>,
 );
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 const SendAnalytics = () => {
     ReactGA.send({
