@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import { Route, Routes } from 'react-router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './global.scss';
@@ -20,10 +20,19 @@ import GiftCardPage from './pages/giftCardPage';
 import EventsPage from './pages/eventsPage';
 import ParkingPage from './pages/parkingPage';
 import DressCodePage from "./pages/dressCodePage";
+import {useLocation} from "react-router-dom";
+import ReactGA from 'react-ga';
 
 function App() {
+    const TRACKING_ID = 'G-V6EXKBL0XP';
+    let location = useLocation();
   const [showSideBar, setShowSideBar] = useState(false);
   const [sideRef, setSideRef] = useState();
+
+    ReactGA.initialize(TRACKING_ID);
+    useEffect(() => {
+        ReactGA.pageview(location.pathname + location.search);
+    }, [location.pathname, location.search]);
 
   return (
     <div className="App">
