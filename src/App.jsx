@@ -21,18 +21,20 @@ import EventsPage from './pages/eventsPage';
 import ParkingPage from './pages/parkingPage';
 import DressCodePage from "./pages/dressCodePage";
 import {useLocation} from "react-router-dom";
-import ReactGA from 'react-ga';
+import { initGA4, trackPageView } from './utils/ga4/ga4-analytics';
 
 function App() {
-    const TRACKING_ID = 'G-V6EXKBL0XP';
-    let location = useLocation();
+    const location = useLocation();
   const [showSideBar, setShowSideBar] = useState(false);
   const [sideRef, setSideRef] = useState();
 
-    ReactGA.initialize(TRACKING_ID);
     useEffect(() => {
-        ReactGA.pageview(location.pathname + location.search);
-    }, [location.pathname, location.search]);
+        // Initialize GA4 tracking
+        initGA4();
+
+        // Track the initial pageview
+        trackPageView(location.pathname);
+    }, [location]);
 
   return (
     <div className="App">

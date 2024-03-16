@@ -3,7 +3,6 @@ import './foodMenuPage.scss';
 import ScrollToHeader from '../../components/scrollToHeader';
 import { foodMenu } from './mock';
 import { scrollToSection } from '../../utils/scrollToSection';
-// import { Player } from 'video-react';
 import video from '../../assets/video/steak-video.mp4';
 
 const FoodMenuPage = () => {
@@ -30,7 +29,7 @@ const FoodMenuPage = () => {
                   return (
                     <li key={food.id}>
                       <p className="foodName">{food.name.toUpperCase()}</p>
-                      <p className="foodDescription">
+                      <div className="foodDescription">
                         {food.description &&
                           food.description.map((item, index) => {
                             return (
@@ -42,7 +41,7 @@ const FoodMenuPage = () => {
                               </p>
                             );
                           })}
-                      </p>
+                      </div>
                       <p className="foodPrice">{food.price}</p>
                     </li>
                   );
