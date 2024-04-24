@@ -3,13 +3,13 @@ import { v4 as uuid } from 'uuid';
 export const saladAndAppetizers = [
   {
     id: uuid(),
-    name: 'HUMMUS WITH almonds and olives',
+    name: 'HUMMUS WITH EDAMAME',
     description: [
       {
-        name: 'chickpea dIp, almonds,',
+        name: 'chickpea dip,',
       },
       {
-        name: 'olives, confit lemons',
+        name: 'GRILLED OYSTER MUSHROOM',
       },
     ],
     price: '14',
@@ -22,7 +22,7 @@ export const saladAndAppetizers = [
         name: 'Grilled red peppers, garlic,',
       },
       {
-        name: 'walnuts, fresh herbs',
+        name: 'walnuts, PARMESAN SAUCE',
       },
     ],
     price: '15',
@@ -32,7 +32,7 @@ export const saladAndAppetizers = [
     name: 'EGGPLANT CAVIAR WITH TAHINI',
     description: [
       {
-        name: 'Roasted eggplant dip, toasted breadcrumbs, ',
+        name: 'Roasted eggplant dip, toasted breadcrumbs,',
       },
       {
         name: 'zucchini, pomegranate, tahini dressing, basil',
@@ -74,23 +74,69 @@ export const saladAndAppetizers = [
         name: 'eggplant caviar, red pepper dip,',
       },
       {
-        name: 'pine nut babaghanush, avocado hummus, flatbread',
+        name: 'avocado hummus, flatbread, HUMMUS',
       },
     ],
     price: '55',
   },
   {
     id: uuid(),
-    name: 'MOZZARELA AVOCADO SALAD',
+    name: 'Avocado hummus',
     description: [
       {
-        name: 'fresh mozzarela, tomatoes, avocado,',
-      },
-      {
-        name: 'lettuce, pine nuts, basil pesto',
+        name: 'Tahini, chickpeas, tomato, capers',
       },
     ],
-    price: '23',
+    price: '14',
+  },
+  {
+    id: uuid(),
+    name: 'Charcuterie platter',
+    description: [
+      {
+        name: 'Copa, prosciutto, salami,',
+      },
+      {
+        name: 'bresaola, olives'
+      }
+    ],
+    price: '52',
+  },
+  {
+    id: uuid(),
+    name: 'RABBIT PATE WITH CRISPY GRAPE LEAVES',
+    description: [
+      {
+        name: 'GRAPES, HAZELNUT, PARMESAN',
+      },
+    ],
+    price: '33',
+  },
+  {
+    id: uuid(),
+    name: 'Salmon caviar with parmegiano waffles',
+    description: [
+      {
+        name: 'Salmon caviar, cream cheese, herbs,',
+      },
+      {
+        name: 'gouda and parmegiano waffles'
+      }
+    ],
+    price: '39',
+  },
+  {
+    id: uuid(),
+    name: 'SEAFOOD SALAD',
+    description: [
+      {
+        name: 'Scallops, shrimp, Parmesan sauce,',
+      },
+      {
+        name: 'mustard sauce, tomatoes Concasse'
+      }
+    ],
+    price: '26',
   },
   {
     id: uuid(),
@@ -114,16 +160,16 @@ export const saladAndAppetizers = [
   },
   {
     id: uuid(),
-    name: 'SEAFOOD SALAD',
+    name: 'MOZZARELA AVOCADO SALAD',
     description: [
       {
-        name: 'Scallops, shrimp, Parmesan sauce, ',
+        name: 'fresh mozzarela, tomatoes, avocado,',
       },
       {
-        name: 'mustard sauce, tomatoes Concasse',
+        name: 'lettuce, pine nuts, basil pesto',
       },
     ],
-    price: '26',
+    price: '23',
   },
   {
     id: uuid(),
@@ -148,39 +194,6 @@ export const saladAndAppetizers = [
     ],
     price: '21',
   },
-  {
-    id: uuid(),
-    name: 'Avocado hummus',
-    description: [
-      {
-        name: 'Tahini, chickpeas, tomato, capers',
-      },
-    ],
-    price: '14',
-  },
-  {
-    id: uuid(),
-    name: 'Charcuterie platter',
-    description: [
-      {
-        name: 'Copa, prosciutto, salami, bresaola, olives',
-      },
-    ],
-    price: '52',
-  },
-  {
-    id: uuid(),
-    name: 'Salmon caviar with parmegiano waffles',
-    description: [
-      {
-        name: 'Salmon caviar, creamcheese, ',
-      },
-      {
-        name: 'herbs, gouda and parmegiano waffles',
-      },
-    ],
-    price: '39',
-  },
 ];
 
 export const rawBar = [
@@ -189,7 +202,17 @@ export const rawBar = [
     name: 'BEEF TATAKI',
     description: [
       {
-        name: 'House ponzu, apple, celery, ginger',
+        name: 'House ponzu, celery, ginger',
+      },
+    ],
+    price: '18',
+  },
+  {
+    id: uuid(),
+    name: 'BEEF TARTARE',
+    description: [
+      {
+        name: 'Truffle mayo, capers, onions',
       },
     ],
     price: '18',
@@ -209,6 +232,19 @@ export const rawBar = [
   },
   {
     id: uuid(),
+    name: 'TUNA TARTARE',
+    description: [
+      {
+        name: 'Avocado, masahosu sauce, yolk cream,',
+      },
+      {
+        name: 'capers, masago sauce',
+      },
+    ],
+    price: '19',
+  },
+  {
+    id: uuid(),
     name: 'SALMON TARTARE',
     description: [
       {
@@ -219,29 +255,6 @@ export const rawBar = [
       },
     ],
     price: '17',
-  },
-  {
-    id: uuid(),
-    name: 'TUNA TARTARE',
-    description: [
-      {
-        name: 'Avocado, masahosu sauce, yolk cream,',
-      },
-      {
-        name: 'capers, masago sauce, seed crackers',
-      },
-    ],
-    price: '19',
-  },
-  {
-    id: uuid(),
-    name: 'BEEF TARTARE',
-    description: [
-      {
-        name: 'Truffle mayo, capers, onions',
-      },
-    ],
-    price: '18',
   },
   {
     id: uuid(),
@@ -396,46 +409,55 @@ export const rawBar = [
 export const specialties = [
   {
     id: uuid(),
-    name: 'GRILLED CHICKEN BREAST',
-    description: [
-      {
-        name: 'Broccolini, asparagus, potatoes,',
-      },
-      {
-        name: 'chicken juice',
-      },
-    ],
-    price: '29',
-  },
-  {
-    id: uuid(),
     name: 'GRILLED LAMB CHOPS',
     description: [
       {
-        name: 'Mini zucchini,eggplant puree, sous wafu',
+        name: 'Mini zucchini, Potato mousse,',
       },
+      {
+        name: 'BLACK GARLIC TAHINI SAUCE, wafu SAUCE'
+      }
     ],
     price: '55',
+  },
+  {
+    id: uuid(),
+    name: 'ROASTED WHOLE LAMB NECK',
+    description: [
+      {
+        name: 'Potato mousse, BLACK GARLIC TAHINI SAUCE,',
+      },
+      {
+        name: ' FLATBREAD, LETTUCE'
+      }
+    ],
+    price: '69',
+  },
+  {
+    id: uuid(),
+    name: 'GRILLED BEEF FILET',
+    description: [
+      {
+        name: 'farm vegetables seasonal, sunchok puree,',
+      },
+      {
+        name: 'truffle-infused creamy saucE, BROCCOLINI'
+      }
+    ],
+    price: '68',
   },
   {
     id: uuid(),
     name: 'SLOW COOKED BEEF SHORTRIBS',
     description: [
       {
-        name: 'Potato mousse, roasted marinated red peppers',
+        name: 'Potato mousse, roasted marinated red peppers,',
       },
+      {
+        name: 'SPINACH MARINATED ASPARAGUS'
+      }
     ],
     price: '47',
-  },
-  {
-    id: uuid(),
-    name: 'ATLANTIC SALMON FILLET',
-    description: [
-      {
-        name: 'Asparagus, dill sauce',
-      },
-    ],
-    price: '38',
   },
   {
     id: uuid(),
@@ -449,13 +471,49 @@ export const specialties = [
   },
   {
     id: uuid(),
-    name: 'CHILLEAN SEABASS FILLET',
+    name: 'Grilled branzino',
     description: [
       {
-        name: 'Spinach, baby zucchini, asian style sauce',
+        name: 'Tomato sauce, potatoes, zucchini',
+      },
+    ],
+    price: '39',
+  },
+  {
+    id: uuid(),
+    name: 'GRILLED TIGER PRAWNS',
+    description: [
+      {
+        name: 'ALMOND AND GARLIC SAUCE, ',
+      },
+      {
+        name: 'green salad, lemon and toast',
+      },
+    ],
+    price: '34',
+  },
+  {
+    id: uuid(),
+    name: 'CHILEAN SEA BASS FILET',
+    description: [
+      {
+        name: 'Spinach, GRILLED BROCCOLINI,',
+      },
+      {
+        name: 'asian style sauce',
       },
     ],
     price: '56',
+  },
+  {
+    id: uuid(),
+    name: 'ATLANTIC SALMON FILET',
+    description: [
+      {
+        name: 'Asparagus, dill sauce',
+      },
+    ],
+    price: '38',
   },
   {
     id: uuid(),
@@ -467,46 +525,58 @@ export const specialties = [
     ],
     price: '32',
   },
+
   {
     id: uuid(),
-    name: 'GRILLED TIGER PRAWNS',
+    name: 'BLACK COD WITH ESTRAGON sauce',
     description: [
       {
-        name: 'Burnt butter sauce, green salad,',
+        name: 'ESTRAGON (TARRAGON) CREAM, ',
       },
       {
-        name: 'lemon and toast',
+        name: 'SMOKED OLIVES, CAPERS, BATTER',
       },
     ],
-    price: '34',
+    price: '57',
   },
   {
     id: uuid(),
-    name: 'GRILLED BEEF FILLET',
+    name: 'FRiED KUFTA WITH FARMED VEGETABLES',
     description: [
       {
-        name: 'baby carrot, farm vegetables seasonal,',
+        name: 'ONION, TRUFFLE ESPUMA, ',
       },
       {
-        name: 'sunchok puree, truffle-infused creamy sauce',
-      },
+        name: 'MINCED/ WELL-GROUNDED MEAT, chacho sauce'
+      }
     ],
-    price: '68',
+    price: '42',
   },
   {
     id: uuid(),
-    name: 'ROASTED WHOLE LAMB NECK',
-    price: '69',
+    name: 'TACO STYLE MINI KEBAB',
+    description: [
+      {
+        name: 'GROUND MEAT, FRESH HERBS,',
+      },
+      {
+        name: 'ONION, MARINATED dill sauce'
+      }
+    ],
+    price: '48',
   },
   {
     id: uuid(),
-    name: 'Grilled branzino',
+    name: 'GRILLED CHICKEN BREAST',
     description: [
       {
-        name: 'Tomato sauce, potatoes, zucchini',
+        name: 'POtatoes, chicken juice,',
       },
+      {
+        name: 'ROMESCO SAUCE, PATISONS'
+      }
     ],
-    price: '39',
+    price: '29',
   },
 ];
 
@@ -537,6 +607,28 @@ export const steaksFromCharcoalOven = [
     price: '75',
   },
 ];
+export const favor = [
+  {
+    id: uuid(),
+    name: 'FRESH TRUFFLE SLICES, 0.5 oz',
+    price:'35'
+  },
+  {
+    id: uuid(),
+    name: 'PEPPERCORN SAUCE',
+    price:'6'
+  },
+  {
+    id: uuid(),
+    name: 'BLUE CHEESE SAUCE',
+    price:'6'
+  },
+  {
+    id: uuid(),
+    name: 'BBQ SAUCE',
+    price:'6'
+  },
+]
 
 export const sides = [
   {
@@ -636,6 +728,59 @@ export const dessert = [
     price: '15',
   },
 ];
+export const specials = [
+  {
+    id: uuid(),
+    name: 'SEAFOOD PLATER',
+    description: [
+      {
+        name: 'EAST & WEST COAST OYSTERS, RAW AND COOKED SHELLFISH,'
+      },
+      {
+        name: 'CUTTLE FISH, MASSACHUSETTS SCALLOP, EAST COAST,'
+      },
+      {
+        name: 'LOBSTER TAIL, SHRIMP COCKTAIL,'
+      },
+      {
+        name: 'CHERRY SHALLOT VINEGAR SAUCE AIOLI SPICY SAUCE,'
+      },
+      {
+        name: 'COCKTAIL SAUCE, TABASCO'
+      }
+    ],
+    price: '182',
+  },
+  {
+    id: uuid(),
+    name: 'CHILLED OYSTERS',
+    description: [
+      {
+        name: 'CHERRY SHALLOT VINEGAR SAUCE AIOLI SPICY SAUCE'
+      },
+      {
+        name: 'CUTTLE FISH, MASSACHUSETTS SCALLOP, EAST COAST,'
+      },
+    ],
+    price: '24/48 (HALF DOZEN/DOZEN)',
+  },
+  {
+    id: uuid(),
+    name: 'JAPANESE A5 WAGYU CARPACCIO',
+    // description: '',
+    price: '54',
+  },
+  {
+    id: uuid(),
+    name: 'BLACK CAVIAR KALUGA',
+    description: [
+      {
+        name: 'CRÉME FRAÎCHE, CHIVES, RED ONION'
+      },
+    ],
+    price: 'MP',
+  },
+]
 
 export const foodMenu = [
   {
@@ -667,6 +812,11 @@ export const foodMenu = [
   },
   {
     id: uuid(),
+    title: 'Enhance the favor of your dish with',
+    type: favor,
+  },
+  {
+    id: uuid(),
     title: 'SIDES',
     type: sides,
   },
@@ -679,5 +829,10 @@ export const foodMenu = [
     id: uuid(),
     title: 'DESSERT',
     type: dessert,
+  },
+  {
+    id: uuid(),
+    title: 'specialS',
+    type: specials,
   },
 ];

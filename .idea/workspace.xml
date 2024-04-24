@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d63592-c71b-4050-bc6a-ea9220d8db8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/ga4/ga4-analytics.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/foodMenuPage/foodMenuPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/foodMenuPage/foodMenuPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/foodMenuPage/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/foodMenuPage/mock.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,8 @@
       <workItem from="1707441312279" duration="4364000" />
       <workItem from="1709186144453" duration="2465000" />
       <workItem from="1709597806768" duration="3275000" />
-      <workItem from="1710563401539" duration="1268000" />
+      <workItem from="1710563401539" duration="1932000" />
+      <workItem from="1713929314848" duration="1873000" />
     </task>
     <servers />
   </component>
