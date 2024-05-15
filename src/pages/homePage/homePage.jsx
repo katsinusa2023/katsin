@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./homePage.scss";
-import video from "../../assets/video/newvideo.mp4";
+import video from "../../assets/video/katsinvd.mp4";
 import Slider from "../../components/slider";
 import { cuisineSlider, venueSlider } from "../../components/slider/mock";
 import { scrollToSection } from "../../utils/scrollToSection";
