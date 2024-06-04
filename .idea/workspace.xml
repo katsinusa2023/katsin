@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d63592-c71b-4050-bc6a-ea9220d8db8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/video/katsinvd.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homePage/homePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homePage/homePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/foodMenuPage/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/foodMenuPage/mock.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mkrtumabrahamyan/Desktop/KATSIN/newKatsin/katsin/src/assets/video",
+    "last_opened_file_path": "/Users/mkrtumabrahamyan/Desktop/KATSIN/newKatsin/katsin",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -96,7 +95,8 @@
       <workItem from="1709597806768" duration="3275000" />
       <workItem from="1710563401539" duration="1932000" />
       <workItem from="1713929314848" duration="2672000" />
-      <workItem from="1715737267320" duration="771000" />
+      <workItem from="1715737267320" duration="1141000" />
+      <workItem from="1717538442742" duration="2683000" />
     </task>
     <servers />
   </component>
