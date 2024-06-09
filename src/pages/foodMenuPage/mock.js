@@ -85,19 +85,6 @@ export const saladAndAppetizers = [
   },
   {
     id: uuid(),
-    name: 'Salmon caviar with parmegiano waffles',
-    description: [
-      {
-        name: 'herbs, cheesewaffles,',
-      },
-      {
-        name: 'cream cheese, salmon caviar'
-      }
-    ],
-    price: '39',
-  },
-  {
-    id: uuid(),
     name: 'SEAFOOD SALAD',
     description: [
       {
