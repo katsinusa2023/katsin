@@ -13,20 +13,33 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="row justify-content-between align-items-end">
-          <div className="col-md-3 mb-5 mb-md-0">
-            <div className="col1">
-              <div className="site-link">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
-                  alt="img"
-                />
+          <div className="col-md-6 mb-5 mb-md-0 row flex-md-row flex-column flex-wrap">
+            <div className="col1 col-md-6">
+              <div className="row flex-md-column flex-row mb-3">
+                <p className="mx-auto ms-2">Dinner Time</p>
+                <div className="col-6 col-md-12">
+                  <div className="hours">
+                    <div className="mb-3">
+                      <img src={calendar} alt="img" />
+                      <p>Tue. - Thu.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-6 col-md-12">
+                  <div className="hours">
+                    <div>
+                      <img src={clock} alt="img" />
+                      <p>6:00PM - 0:00AM</p>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="row flex-md-column flex-row mb-3">
                 <div className="col-6 col-md-12">
                   <div className="hours">
                     <div className="mb-3">
                       <img src={calendar} alt="img" />
-                      <p>Tuesday-Sunday</p>
+                      <p>Fri. - Sun.</p>
                     </div>
                   </div>
                 </div>
@@ -35,6 +48,27 @@ const Footer = () => {
                     <div>
                       <img src={clock} alt="img" />
                       <p>5:00PM - 0:00AM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col1 col-md-6 mt-md-0 mt-4">
+              <div className="row flex-md-column flex-row mb-3">
+                <p className="mx-auto ms-2">Brunch Time</p>
+                <div className="col-6 col-md-12">
+                  <div className="hours">
+                    <div className="mb-3">
+                      <img src={calendar} alt="img" />
+                      <p>Sat. & Sun.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-6 col-md-12">
+                  <div className="hours">
+                    <div>
+                      <img src={clock} alt="img" />
+                      <p>11:00AM - 3:00PM</p>
                     </div>
                   </div>
                 </div>
@@ -66,14 +100,14 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-9">
+          <div className="col-md-6">
             <div className="d-flex flex-wrap-reverse justify-content-between">
-              <div className="col-md-7 col-12 mb-5 mb-md-0">
+              <div className="col-md-4 col-12 mb-5 mb-md-0">
                 <div className="logo-wrapper mb-4">
                   <img src={logo} alt="logo" className="img-fluid" />
                 </div>
               </div>
-              <div className="col-md-4 col-12">
+              <div className="col-md-7 col-12">
                 <div className="col1 info-col">
                   <div className="email mb-3">
                     <a href="mailto:info@katsinusa.com">

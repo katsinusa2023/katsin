@@ -22,6 +22,7 @@ import ParkingPage from './pages/parkingPage';
 import DressCodePage from "./pages/dressCodePage";
 import {useLocation} from "react-router-dom";
 import { initGA4, trackPageView } from './utils/ga4/ga4-analytics';
+import BrunchMenuPage from "./pages/brunchMenuPage";
 
 function App() {
     const location = useLocation();
@@ -45,6 +46,7 @@ function App() {
         <Route path={'/'} element={<HomePage sideRef={sideRef} />} />
         <Route path={'/welcome'} element={<WelcomePage />} />
         <Route path={'/menu'} element={<FoodMenuPage />} />
+        <Route path={'/brunch'} element={<BrunchMenuPage />} />
         <Route path={'/bar'} element={<DrinkMenuPage />} />
         <Route path={'/events'} element={<EventsPage />} />
         <Route path={'/cards'} element={<GiftCardPage />} />
