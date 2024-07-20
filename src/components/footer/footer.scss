@@ -49,6 +49,11 @@
         margin: 0 !important;
       }
     }
+    @media (max-width: 352px) {
+      p{
+        font-size: 14px;
+      }
+    }
     &>div{
       display: flex;
       align-items: center;

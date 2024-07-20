@@ -12,68 +12,38 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <div className="row justify-content-between align-items-end">
-          <div className="col-md-6 mb-5 mb-md-0 row flex-md-row flex-column flex-wrap">
-            <div className="col1 col-md-6">
-              <div className="row flex-md-column flex-row mb-3">
-                <p className="mx-auto ms-2">Dinner Time</p>
-                <div className="col-6 col-md-12">
-                  <div className="hours">
-                    <div className="mb-3">
-                      <img src={calendar} alt="img" />
-                      <p>Tue. - Thu.</p>
-                    </div>
+        <div className="row justify-content-between">
+          <div className="col-md-5 mb-5 mb-md-0 row flex-md-row flex-column flex-wrap">
+            <div className="col1 mx-auto d-flex flex-column align-items-center align-items-md-start">
+              <div className=" d-flex align-items-center flex-row mb-3">
+                <div className="hours me-2">
+                  <div>
+                    <img src={calendar} alt="img" />
+                    <p>Tue. - Thu.</p>
                   </div>
                 </div>
-                <div className="col-6 col-md-12">
-                  <div className="hours">
-                    <div>
-                      <img src={clock} alt="img" />
-                      <p>6:00PM - 0:00AM</p>
-                    </div>
+                <div className="hours">
+                  <div>
+                    <img src={clock} alt="img" />
+                    <p>6:00PM - 0:00AM</p>
                   </div>
                 </div>
               </div>
-              <div className="row flex-md-column flex-row mb-3">
-                <div className="col-6 col-md-12">
-                  <div className="hours">
-                    <div className="mb-3">
-                      <img src={calendar} alt="img" />
-                      <p>Fri. - Sun.</p>
-                    </div>
+              <div className="d-flex align-items-center flex-row mb-3">
+                <div className="hours me-3">
+                  <div>
+                    <img src={calendar} alt="img" />
+                    <p>Fri. - Sun.</p>
                   </div>
                 </div>
-                <div className="col-6 col-md-12">
-                  <div className="hours">
-                    <div>
-                      <img src={clock} alt="img" />
-                      <p>5:00PM - 0:00AM</p>
-                    </div>
+                <div className="hours">
+                  <div>
+                    <img src={clock} alt="img" />
+                    <p>5:00PM - 0:00AM</p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col1 col-md-6 mt-md-0 mt-4">
-              <div className="row flex-md-column flex-row mb-3">
-                <p className="mx-auto ms-2">Brunch Time</p>
-                <div className="col-6 col-md-12">
-                  <div className="hours">
-                    <div className="mb-3">
-                      <img src={calendar} alt="img" />
-                      <p>Sat. & Sun.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-6 col-md-12">
-                  <div className="hours">
-                    <div>
-                      <img src={clock} alt="img" />
-                      <p>11:00AM - 3:00PM</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="d-md-flex d-none mt-4">
+              <div className="d-flex mt-3">
                 <div className="hours">
                   <div className="mb-3">
                     <img src={calendar} alt="img" />
@@ -81,26 +51,28 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="row mt-4 d-flex d-md-none">
-                <div className="col-6">
-                  <div className="hours">
-                    <div className="mb-3">
-                      <img src={calendar} alt="img" />
-                      <p>Monday</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-6">
-                  <div className="hours">
-                    <div className="mx-auto">
-                      <p className="closed">Closed</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
+            {/*<div className="col1 col-md-6 mt-md-0 mt-4">*/}
+            {/*  <div className="row mt-4 d-flex d-md-none">*/}
+            {/*    <div className="col-6">*/}
+            {/*      <div className="hours">*/}
+            {/*        <div className="mb-3">*/}
+            {/*          <img src={calendar} alt="img" />*/}
+            {/*          <p>Monday</p>*/}
+            {/*        </div>*/}
+            {/*      </div>*/}
+            {/*    </div>*/}
+            {/*    <div className="col-6">*/}
+            {/*      <div className="hours">*/}
+            {/*        <div className="mx-auto">*/}
+            {/*          <p className="closed">Closed</p>*/}
+            {/*        </div>*/}
+            {/*      </div>*/}
+            {/*    </div>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
-          <div className="col-md-6">
+          <div className="col-md-7">
             <div className="d-flex flex-wrap-reverse justify-content-between">
               <div className="col-md-4 col-12 mb-5 mb-md-0">
                 <div className="logo-wrapper mb-4">
