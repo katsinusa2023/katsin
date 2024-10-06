@@ -29,6 +29,7 @@ const FoodMenuPage = () => {
                   return (
                     <li key={food.id}>
                       <p className="foodName">{food.name.toUpperCase()}</p>
+
                       <div className="foodDescription">
                         {food.description &&
                           food.description.map((item, index) => {
@@ -41,6 +42,7 @@ const FoodMenuPage = () => {
                               </p>
                             );
                           })}
+                          {!!food.type && !!food.type.length && <p className="foodType">{food.type.toUpperCase()}</p>}
                       </div>
                       <p className="foodPrice">{food.price}</p>
                     </li>
