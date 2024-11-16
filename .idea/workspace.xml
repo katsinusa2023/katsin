@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0d63592-c71b-4050-bc6a-ea9220d8db8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/drinkMenuPage/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/drinkMenuPage/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/drinkMenuPage/newmock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/drinkMenuPage/newmock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/foodMenuPage/foodMenuPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/foodMenuPage/foodMenuPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/foodMenuPage/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/foodMenuPage/mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,8 @@
       <workItem from="1721977811073" duration="149000" />
       <workItem from="1722108008337" duration="18000" />
       <workItem from="1728198235420" duration="67000" />
-      <workItem from="1728234315404" duration="2874000" />
+      <workItem from="1728234315404" duration="3513000" />
+      <workItem from="1731731127142" duration="248000" />
     </task>
     <servers />
   </component>
