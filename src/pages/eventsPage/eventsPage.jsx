@@ -1,7 +1,7 @@
 import React from 'react';
 import './eventsPage.scss';
-import event1 from '../../assets/images/events/event1(130).png'
-import event2 from '../../assets/images/events/event2(150).png'
+import event1 from '../../assets/images/events/setmenu125$.jpg'
+import event2 from '../../assets/images/events/setmenu150$.jpg'
 
 const EventsPage = () => {
   return (
