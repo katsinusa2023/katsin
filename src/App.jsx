@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './global.scss';
@@ -19,23 +19,24 @@ import VipRoomPage from './pages/vipRoomPage';
 import GiftCardPage from './pages/giftCardPage';
 import EventsPage from './pages/eventsPage';
 import ParkingPage from './pages/parkingPage';
-import DressCodePage from "./pages/dressCodePage";
-import {useLocation} from "react-router-dom";
+import DressCodePage from './pages/dressCodePage';
+import { useLocation } from 'react-router-dom';
 import { initGA4, trackPageView } from './utils/ga4/ga4-analytics';
+import ReservationPage from './pages/resrevationPage';
 // import BrunchMenuPage from "./pages/brunchMenuPage";
 
 function App() {
-    const location = useLocation();
+  const location = useLocation();
   const [showSideBar, setShowSideBar] = useState(false);
   const [sideRef, setSideRef] = useState();
 
-    useEffect(() => {
-        // Initialize GA4 tracking
-        initGA4();
+  useEffect(() => {
+    // Initialize GA4 tracking
+    initGA4();
 
-        // Track the initial pageview
-        trackPageView(location.pathname);
-    }, [location]);
+    // Track the initial pageview
+    trackPageView(location.pathname);
+  }, [location]);
 
   return (
     <div className="App">
@@ -53,6 +54,7 @@ function App() {
         <Route path={'/vip'} element={<VipRoomPage />} />
         <Route path={'/dress-code'} element={<DressCodePage />} />
         <Route path={'/parking'} element={<ParkingPage />} />
+        <Route path={'/reservation'} element={<ReservationPage />} />
 
         <Route path={'/jobs'} element={<JobsPage />} />
         <Route path={'/privacy-policy'} element={<PrivacyPolicyPage />} />
