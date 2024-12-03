@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="hours">
                   <div>
                     <img src={clock} alt="img" />
-                    <p>6:00PM - 0:00AM</p>
+                    <p>6:00PM - 12:00AM</p>
                   </div>
                 </div>
               </div>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <div className="hours">
                   <div>
                     <img src={clock} alt="img" />
-                    <p>6:00PM - 0:00AM</p>
+                    <p>6:00PM - 12:00AM</p>
                   </div>
                 </div>
               </div>
