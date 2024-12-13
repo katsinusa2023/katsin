@@ -20,9 +20,11 @@ import GiftCardPage from './pages/giftCardPage';
 import EventsPage from './pages/eventsPage';
 import ParkingPage from './pages/parkingPage';
 import DressCodePage from './pages/dressCodePage';
+import ReservationPage from './pages/resrevationPage';
 import { useLocation } from 'react-router-dom';
 import { initGA4, trackPageView } from './utils/ga4/ga4-analytics';
-import ReservationPage from './pages/resrevationPage';
+// import CookieConsent from 'react-cookie-consent';
+
 // import BrunchMenuPage from "./pages/brunchMenuPage";
 
 function App() {
@@ -63,6 +65,9 @@ function App() {
       </Routes>
       <Socials />
       <Footer />
+      {/*<div className="cookies">*/}
+      {/*  <CookieConsent>This website uses cookies to enhance user experience.</CookieConsent>*/}
+      {/*</div>*/}
     </div>
   );
 }

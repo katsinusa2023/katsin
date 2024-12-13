@@ -32,6 +32,7 @@ const Sidebar = ({ showSideBar, setShowSideBar, setSideRef }) => {
           <li onClick={() => handleNavigate()}>
             <NavLink to={'/menu'}>Dinner Menu</NavLink>
           </li>
+
           <li onClick={() => handleNavigate()}>
             <NavLink to={'/bar'}>Bar Menu</NavLink>
           </li>
